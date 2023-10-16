@@ -1,0 +1,32 @@
+V1.71 Release Changelog
+
+	Model:
+	- Changed to F-15E S4+ model
+	- Added EPAWSS model (changes tail boom configuration and adds outer wing pylons, uses centerline station)
+	
+	Liveries:
+	- Added F-15EX Prototype 1 and 2 liveries (Vasy)
+	- Added F-15EX Production Line Green livery (Vasy)
+	- Added F-15EX 58th FS "Gorillas" fictional livery (AWACS_Bandog)
+	- Added ANG Livery Pack (separate download)
+	- Added Export Livery Pack (separate download)
+
+	Systems:
+	- Expanded countermeasures carriage (up to 360 chaff or 180 flares)
+	
+	Weapons:
+	- Re-worked loadouts allow for increased weapons options on outer wings, at the cost of the centerline station
+	- Added AIM-260A JATM (limited to 8 due to issues with double rail launchers)
+	- Added some precision guided air to ground weapons (usable only by AI, some weapons require other mods)
+	- Added CFT loadouts from the F-15E, enables carriage of 12 BLU-107, CBU-87/97, Mk-20, or Mk-82 bombs.
+	- Added EPAWSS tail gear and outer wing pylons (uses station 6 and precludes carriage of centerline drop tank)
+	- Added AIM-9X and AIM-120 single options for outer wing pylons
+	- Added AGM-88C HARM to wing stations (only usable by AI)
+	- Added AIM-200A Peregrine Compact Medium Range Air to Air Missile (CMRAAM)
+
+	Other:
+	- Renamed mod to F-15EX, so it no longer shows up as VSN_F15_AA
+	- Fixed an issue causing a default set of payloads to appear with AIM-7 and other older missiles
+	- Removed model accidentally included without permission
+
+
