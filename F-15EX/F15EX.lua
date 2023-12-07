@@ -298,6 +298,9 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}" , attach_point_position = {-2.0,  0.05,  -0.95},
 				required = {{station = 6, loadout = {"{F-15EX_pylon}"}}},
 				}, -- AGM-88C
+				{ CLSID = "{MiG-29MU2_ADM-160B_LAU118}" , attach_point_position = {-2.0,  0.05,  -0.95},
+				required = {{station = 6, loadout = {"{F-15EX_pylon}"}}},
+				}, -- ADM-160
 				{ CLSID = '{aargm_er}' , attach_point_position = {-2.0,  -0.05,  -0.95},
 				required = {{station = 6, loadout = {"{F-15EX_pylon}"}}},
 				}, -- AGM-88G
@@ -329,6 +332,8 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AGM-154A}" },
 				{ CLSID = "{AGM-154B}" },
 				{ CLSID = "{AGM-154C}" },
+				{ CLSID = "{MiG-29MU2_ADM-160B}" },
+				{ CLSID = '{MIG29MU2_JDAM-ER}' },
 				
 				-- UNGUIDED BOMBS AND ROCKETS --
 				{ CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}" }, -- Mk-82-TER
@@ -375,7 +380,6 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AMBER_2xAIM120C5}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C*2
 				{ CLSID = "{AMBER_2xAIM120C7}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C7*2
 				{ CLSID = "{AMBER_2xAIM120D}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120D*2
-				{ CLSID = "{NGAD_AIM200}" , attach_point_position = {-0.85,  -0.1,  0.0}, Type = 1}, -- AIM-200*2
 				{ CLSID = "{PAMC_4xAIM200}", attach_point_position = {-0.35, -0.1, 0.0}, Type = 1}, -- AIM-200*4
 				{ CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}", attach_point_position = {0.0,  -0.1,  0.0}, Type = 1, arg_value = 0.15}, -- AIM-120C
 				
@@ -404,6 +408,8 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{DB769D48-67D7-42ED-A2BE-108D566C8B1E}" }, -- GBU-12
 				{ CLSID = "{GBU-38}" }, -- GBU-38
 				{ CLSID = "{GBU_54_V_1B}" }, -- GBU-54
+				{ CLSID = "{MiG-29MU2_ADM-160B}" },
+				{ CLSID = '{MIG29MU2_JDAM-ER}' },
 		
             }
         ),
@@ -417,7 +423,6 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AMBER_2xAIM120C5}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C*2
 				{ CLSID = "{AMBER_2xAIM120C7}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C7*2
 				{ CLSID = "{AMBER_2xAIM120D}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120D*2
-				{ CLSID = "{NGAD_AIM200}" , attach_point_position = {-0.85,  -0.1,  0.0}, Type = 1}, -- AIM-200*2
 				{ CLSID = "{PAMC_4xAIM200}", attach_point_position = {-0.35, -0.1, 0.0}, Type = 1}, -- AIM-200*4
 				{ CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}", attach_point_position = {0.6,  -0.1,  0.0}, Type = 1, arg_value = 0.15}, -- AIM-120C
 				
@@ -428,6 +433,8 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AGM-154A}" , Type = 1},
 				{ CLSID = "{AGM-154B}" , Type = 1},
 				{ CLSID = "{AGM-154C}" , Type = 1},
+				{ CLSID = "{MiG-29MU2_ADM-160B}" },
+				{ CLSID = '{MIG29MU2_JDAM-ER}' },
 				
 				-- UNGUIDED BOMBS --
 				{ CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}" }, -- CBU-97	
@@ -469,7 +476,6 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AMBER_2xAIM120C5}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C*2
 				{ CLSID = "{AMBER_2xAIM120C7}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C7*2
 				{ CLSID = "{AMBER_2xAIM120D}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120D*2
-				{ CLSID = "{NGAD_AIM200}" , attach_point_position = {-0.85,  -0.1,  0.0}, Type = 1}, -- AIM-200*2
 				{ CLSID = "{PAMC_4xAIM200}", attach_point_position = {-0.35, -0.1, 0.0}, Type = 1}, -- AIM-200*4
 				{ CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}", attach_point_position = {0.6,  -0.1,  0.0}, Type = 1, arg_value = 0.15}, -- AIM-120C
 				
@@ -480,6 +486,8 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AGM-154A}" , Type = 1},
 				{ CLSID = "{AGM-154B}" , Type = 1},
 				{ CLSID = "{AGM-154C}" , Type = 1},
+				{ CLSID = "{MiG-29MU2_ADM-160B}" },
+				{ CLSID = '{MIG29MU2_JDAM-ER}' },
 				
 				-- UNGUIDED BOMBS --
 				{ CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}" }, -- CBU-97	
@@ -507,7 +515,6 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AMBER_2xAIM120C5}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C*2
 				{ CLSID = "{AMBER_2xAIM120C7}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120C7*2
 				{ CLSID = "{AMBER_2xAIM120D}" , attach_point_position = {0.0,  -0.12,  0.0}, Type = 1}, -- AIM-120D*2
-				{ CLSID = "{NGAD_AIM200}" , attach_point_position = {-0.85,  -0.1,  0.0}, Type = 1}, -- AIM-200*2
 				{ CLSID = "{PAMC_4xAIM200}", attach_point_position = {-0.35, -0.1, 0.0}, Type = 1}, -- AIM-200*4
 				{ CLSID = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}", attach_point_position = {0.0,  -0.1,  0.0}, Type = 1, arg_value = 0.15}, -- AIM-120C
 				
@@ -518,6 +525,8 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AGM-154A}" , Type = 1},
 				{ CLSID = "{AGM-154B}" , Type = 1},
 				{ CLSID = "{AGM-154C}" , Type = 1},
+				{ CLSID = "{MiG-29MU2_ADM-160B}" },
+				{ CLSID = '{MIG29MU2_JDAM-ER}' },
 				
 				-- UNGUIDED BOMBS --
 				{ CLSID = "{5335D97A-35A5-4643-9D9B-026C75961E52}" }, -- CBU-97	
@@ -578,6 +587,8 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{AGM-154A}" },
 				{ CLSID = "{AGM-154B}" },
 				{ CLSID = "{AGM-154C}" },
+				{ CLSID = "{MiG-29MU2_ADM-160B}" },
+				{ CLSID = '{MIG29MU2_JDAM-ER}' },
 				
 				-- UNGUIDED BOMBS AND ROCKETS --
 				{ CLSID = "{60CC734F-0AFA-4E2E-82B8-93B941AB11CF}" }, -- Mk-82-TER
@@ -642,7 +653,10 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{ CLSID = "{B06DD79A-F21E-4EB9-BD9D-AB3844618C93}" , attach_point_position = {1.9,  0.75,  2.53},
 				required = {{station = 6, loadout = {"{F-15EX_pylon}"}}},
 				}, -- AGM-88C
-				{ CLSID = '{aargm_er}' , attach_point_position = {1.9,  0.75,  2.53},
+				{ CLSID = "{MiG-29MU2_ADM-160B_LAU118}" , attach_point_position = {1.9,  0.75,  2.53},
+				required = {{station = 6, loadout = {"{F-15EX_pylon}"}}},
+				}, -- ADM-160B
+				{ CLSID = '{aargm_er}' , attach_point_position = {1.9,  0.72,  2.53},
 				required = {{station = 6, loadout = {"{F-15EX_pylon}"}}},
 				}, -- AGM-88G
 				
