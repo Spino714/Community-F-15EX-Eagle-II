@@ -103,8 +103,8 @@ F15EX =  {
 		wing_area					=	56.5,	-- wing area in m2
 		wing_span					=	13.05,--XX   wing spain in m
 		wing_type 					= 	0,--XX 0=FIXED_WING/ 1=VARIABLE_GEOMETRY/ 2=FOLDED_WING/ 3=ARIABLE_GEOMETRY_FOLDED
-		thrust_sum_max				=	15563,	-- thrust in kgf (64.3 kN)
-		thrust_sum_ab				=	26717,	-- thrust in kgf (95.1 kN)
+		thrust_sum_max				=	15563,	-- thrust in kgf (64.3 kN, 34311 lbf)
+		thrust_sum_ab				=	26717,	-- thrust in kgf (95.1 kN, 58900 lbf)
 		length						=	19.43,
 		height						=	5.63,
 		flaps_maneuver				=	1,
@@ -725,41 +725,7 @@ pylons_enumeration = {1, 11, 10, 2, 3, 9, 4, 8, 5, 7, 6},
 				{3.9,	0.0400,		0.023,		0.9,		6.0,	0.84,	 7.0,	0.2		},
 			}, -- end of table_data
 		}, -- end of aerodynamics
-		engine = 
-		{
-			Nmg		=	67.5,
-			MinRUD	=	0,
-			MaxRUD	=	1,
-			MaksRUD	=	0.85,
-			ForsRUD	=	0.91,
-			type	=	"TurboJet",
-			hMaxEng	=	19.5,
-			dcx_eng	=	0.0114,
-			cemax	=	1.24,
-			cefor	=	2.56,
-			dpdh_m	=	6000,
-			dpdh_f	=	14000.0,
-			table_data = {
-			--   M		Pmax		 Pfor
-				{0.0,	115000,		212000},
-				{0.2,	 94000,		200000},
-				{0.4,	 92000,		205000},
-				{0.6,	103000,		207000},
-				{0.7,	105000,		210000},
-				{0.8,	105000,		220000},
-				{0.9,	105000,		235000},
-				{1.0,	107000,		250000},
-				{1.1,	103000,		258000},
-				{1.2,	 94000,		268000},
-				{1.3,	 84000,		285000},
-				{1.4,	 71000,		300000},
-				{1.6,	 34000,		318000},
-				{1.8,	 19000,		337000},
-				{2.2,	 17000,		370000},
-				{2.5,	 19000,		390000},
-				{3.9,	 82000,		310000},
-			}, -- end of table_data
-		}, -- end of engineengine =
+		engine =
 		{
 			type	=	"TurboFan",
 			Nmg		=	67.5,
